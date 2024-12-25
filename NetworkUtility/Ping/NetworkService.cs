@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace NetworkUtility.Ping
 {
-    internal class NetworkService
+    public class NetworkService
     {
+        public string SendPing()
+        {
+            //Search DNS
+            //Build Packets
+            return "Success: Ping sent!";
+        }
+
+        public int PingTimeout(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
